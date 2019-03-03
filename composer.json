@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "fillup/walmart-partner-api-sdk-php": "^1.0.9",
-        "illuminate/support": "^5.9@dev"
+        "illuminate/support": "5.2.*"
     },
     "autoload": {
         "psr-4": {
