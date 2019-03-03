@@ -5,10 +5,18 @@ It is easiest to use [Composer](https://getcomposer.org/) to install, simply run
 
     composer require srosenthal/laravel-walmart
 
-
-
 ## Usage Documentation
- Simply add the Service provider to your config/app.php
+ Make sure to add the following variables to your .env:
+
+    WALMART_CONSUMER_ID
+    WALMART_PRIVATE_KEY
+    WALMART_CONSUMER_CHANNEL_TYPE  
+    
+ You can use the following command to publish the config:
+ 
+    php artisan vendor:publish
+ 
+ Now add the Service provider to your config/app.php
     
     Srosenthal\Walmart\WalmartServiceProvider::class
     
@@ -23,12 +31,7 @@ And add the facades to the config/app.php 'aliases':
 Now you can use the facades and any of the classes found in Phillip's SDK:
 
     dd(WalmartFeed::list());
-    
-Make sure to add the following variables to your .env:
-
-    WALMART_CONSUMER_ID
-    WALMART_PRIVATE_KEY
-    WALMART_CONSUMER_CHANNEL_TYPE          
+                
 
 ## API Coverage
 Currently 100% (19 of 19) are supported by this SDK
