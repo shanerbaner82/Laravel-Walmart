@@ -1,0 +1,36 @@
+{
+    "name": "srosenthal/laravel-walmart",
+    "description": "Laravel wrapper for fillup/walmart-partner-api-sdk-php",
+    "license": "MIT",
+    "keywords": ["laravel", "walmart marketplace"],
+    "authors": [
+        {
+            "name": "Shane Rosenthal",
+            "email": "srosenthal82@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fillup/walmart-partner-api-sdk-php": "^1.0.9",
+        "illuminate/support": "^5.9@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Srosenthal\\Walmart\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Srosenthal\\Walmart\\WalmartServiceProvider"
+            ],
+            "aliases": {
+                "WalmartFeed" : "\\Srosenthal\\Walmart\\Facades\\WalmartFeed",
+                "WalmartInventory" : "\\Srosenthal\\Walmart\\Facades\\WalmartInventory",
+                "WalmartItem" : "\\Srosenthal\\Walmart\\Facades\\WalmartItem",
+                "WalmartOrder" : "\\Srosenthal\\Walmart\\Facades\\WalmartOrder",
+                "WalmartPrice" : "\\Srosenthal\\Walmart\\Facades\\WalmartPrice"
+            }
+        }
+    }
+}
