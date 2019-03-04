@@ -59,10 +59,6 @@ Currently 100% (19 of 19) are supported by this SDK
 |           | Bulk update inventory         | Inventory-> Bulk      | Yes / Yes           |https://developer.walmartapis.com/#bulk-update-inventory |
 
 
-## todo
- - [ ] Perform integration testing for remaining Order APIs
- - [ ] Write middleware for error response handling to parse message from response xml
-
 ## Reporting Issues
 Please use Github Issues to report any problems you find or questions
 about usage.
