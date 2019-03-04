@@ -1,5 +1,5 @@
-# Walmart Partner APIs PHP SDK
-This library provides an easy to use interface to [Walmart's Partner APIs](https://developer.walmartapis.com/). It is a Laravel 5.* wrapper for the Walmart Marketplace PHP SDK that you can find [here](https://github.com/fillup/walmart-partner-api-sdk-php).
+# Laravel 5.8 Wrapper for Walmart Partner APIs PHP SDK
+This library provides an easy to use interface to [Walmart's Partner APIs](https://developer.walmartapis.com/). It is a Laravel 5.* wrapper for the Walmart Partner PHP SDK that you can find [here](https://github.com/fillup/walmart-partner-api-sdk-php).
 ## Installation
 It is easiest to use [Composer](https://getcomposer.org/) to install, simply run:
 
